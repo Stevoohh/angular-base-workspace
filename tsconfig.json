@@ -3,10 +3,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "paths": {
-      "angular-base": [
-        "./dist/angular-base"
-      ],
+    "paths": {      
       "@olb/angular-base": [
         "./dist/angular-base"
       ]

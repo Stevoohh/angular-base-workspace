@@ -62,11 +62,24 @@
               {
                 "glob": "**/*",
                 "input": "projects/angular-base-demo/public"
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/angular-base/assets",
+                "output": "/assets/"
               }
             ],
             "styles": [
-              "projects/angular-base-demo/src/styles.scss"
+              "projects/angular-base-demo/src/styles.scss",
+              "@olb/angular-base/assets/styles/_olbbase-theme.scss"              
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "@olb/angular-base/assets/styles/",
+                "./projects/angular-base/assets/styles",
+                "./projects/angular-base-demo/src/stylings"
+              ]
+            },
             "scripts": []
           },
           "configurations": {

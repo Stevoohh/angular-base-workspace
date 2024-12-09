@@ -1,0 +1,10 @@
+@use "olbbase-theme" as olbtheme;
+@use "test" as *;
+
+.test {    
+    background-color: $testcolor;
+}
+
+.bla {
+    background-color: olbtheme.$mycolor;
+}
